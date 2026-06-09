@@ -2,7 +2,6 @@ import { Topbar } from './Topbar';
 import { PipelineToolbar } from './toolbar';
 import { PipelineUI } from './ui';
 import { SubmitButton } from './submit';
-import { StatusBar } from './StatusBar';
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
         <PipelineUI />
         <SubmitButton />
       </div>
-      <StatusBar />
     </div>
   );
 }

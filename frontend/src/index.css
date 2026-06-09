@@ -344,41 +344,7 @@ h1, h2, h3, h4, h5, h6, .outfit {
   transform: translateY(0);
 }
 
-/* === STATUS BAR === */
-.status-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 32px;
-  padding: 0 var(--space-lg);
-  background: var(--bg-level1);
-  border-top: 1px solid var(--border-subtle);
-  flex-shrink: 0;
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
-  color: var(--text-muted);
-  z-index: 50;
-}
 
-.status-right {
-  display: flex;
-  align-items: center;
-  gap: var(--space-lg);
-}
-
-.status-indicator {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.status-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--accent-end);
-  box-shadow: 0 0 8px var(--accent-end);
-}
 
 /* === BASE NODE CARD === */
 .base-node {
